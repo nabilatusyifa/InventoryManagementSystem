@@ -1,0 +1,56 @@
+﻿@model InventoryManagement.Models.Transaction
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Product</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 50px;
+        }
+
+        .container {
+            max-width: 400px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #343a40;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Detail Transaction</h1>
+        <div class="card">
+            <div class="card"></div>
+                <p class="card-text"><strong>Transaction Id:</strong> @Model.TransactionId</p>
+                <p class="card-text"><strong>Product Id:</strong> @Model.ProductId</p>
+                <p class="card-text"><strong>Transaction Type:</strong> @Model.TransactionType</p>
+                <p class="card-text"><strong>Quantity:</strong> @Model.Quantity</p>
+                <p class="card-text"><strong>Date:</strong> @Model.Date</p>
+                <strong>Transaction Id:</strong> @Model.TransactionId
+            </div>
+        </div>
+    </div>
+
+    @* <!-- Bootstrap JS (optional, if needed for components like modals or tooltips) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> *@
+</body>
+</html>
