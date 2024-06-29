@@ -1,4 +1,4 @@
-# InventoryManagementSystem
+# Inventory Management System
 
 ## Description
 This project involves creating a simple inventory management application designed for a small store. The application tracks stock levels of products and records inventory transactions, facilitating efficient stock management.
